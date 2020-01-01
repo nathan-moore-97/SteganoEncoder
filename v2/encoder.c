@@ -7,7 +7,11 @@
 #include <arpa/inet.h>
 
 
+
+
 int main(int argc, char *argv[]) {
+
+    int mask = 2; // How much data of the image we will overwrite with the text file
     
     int img_fd, sec_fd, out_fd;
     int sec_nbytes, img_nbytes;
